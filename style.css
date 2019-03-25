@@ -1,0 +1,113 @@
+body {
+  margin:0;
+  padding:0;
+}
+/****
+**** Ecran d'accueil****
+******************/
+header {
+  height:65vh;
+  width:100%;
+  background-image: url(images/bateau1.jpeg);
+  background-size: cover;
+}
+.gauche {
+  position:relative;
+  width:90%;
+  top:3vh;
+  font-family:"nouvelle_vague_final.tff";
+}
+
+.millieu {
+  position:relative;
+  width:90%;
+  top:20vh;
+  text-align:center;
+  font-family: 'nouvelle vague';
+}
+
+.droite {
+  position:relative;
+  width:90%;
+  top:30vh;
+  text-align: right;
+  margin: auto;
+}
+
+
+header h1 {
+  font-size:55px;
+  color:yellow;
+}
+
+/*********
+***** Menu******
+*****************/
+
+nav ul{
+  list-style: none;
+  float: right;
+}
+
+nav li {
+display:inline;
+padding-right: 35px;
+}
+
+nav {
+  position:fixed;
+  top:0;
+  width:100%;
+  height:60px;
+  background-color: #056E6B;
+}
+
+
+
+section {
+  min-height:100vh;
+}
+
+body {
+  background-color:white;
+}
+
+
+h2{
+  text-align:center;
+  padding-top:50px;
+  color: #056E6B;
+  font-size: 50px;
+}
+
+#menu a {
+  text-decoration: none;
+  font-family: "myriad pro";
+  color: white;
+}
+
+/***********
+***Footer******
+***************/
+
+footer {
+  position: absolute;
+  margin-bottom:0;
+  width:100%;
+  min-height: 200px;
+  background-color:black;
+}
+
+#reseaux-sociaux {
+  text-align: center;
+}
+
+#reseaux-sociaux img {
+  padding:35px;
+  text-align: center;
+}
+.Activite {
+float: right;
+display: block;
+
+}
